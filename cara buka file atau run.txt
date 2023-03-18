@@ -1,0 +1,4 @@
+flutter di build and run, di rund di emulator
+1. buka vscode/code editor
+2. buka emulator
+3. build and run pada code editor
