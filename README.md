@@ -1,6 +1,6 @@
 cara run atau buka
 1. buka code editor
-2. buka emulator
+2. buka emulator, lebih optimal jika android
 3. pastikan devicenya adalah emulator HP
 4. build and run
 
