@@ -45,6 +45,8 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Card(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
               margin: EdgeInsets.only(top: 15, left: 20, right: 20),
               child: ListTile(
                 onTap: () {
@@ -100,8 +102,25 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
               margin: EdgeInsets.only(top: 15, left: 20, right: 20),
               child: ListTile(
+                onTap: () {
+                  setState(() {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          "Konten belum tersedia",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, color: Colors.black),
+                        ),
+                        duration: Duration(seconds: 1),
+                        backgroundColor: Color(0xff97DEFF),
+                      ),
+                    );
+                  });
+                },
                 title: Row(
                   children: [
                     Container(
@@ -149,8 +168,25 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
               margin: EdgeInsets.only(top: 15, left: 20, right: 20),
               child: ListTile(
+                onTap: () {
+                  setState(() {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          "Konten belum tersedia",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, color: Colors.black),
+                        ),
+                        duration: Duration(seconds: 1),
+                        backgroundColor: Color(0xff97DEFF),
+                      ),
+                    );
+                  });
+                },
                 title: Row(
                   children: [
                     Container(
@@ -198,8 +234,25 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
               margin: EdgeInsets.only(top: 15, left: 20, right: 20),
               child: ListTile(
+                onTap: () {
+                  setState(() {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          "Konten belum tersedia",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, color: Colors.black),
+                        ),
+                        duration: Duration(seconds: 1),
+                        backgroundColor: Color(0xff97DEFF),
+                      ),
+                    );
+                  });
+                },
                 title: Row(
                   children: [
                     Container(
