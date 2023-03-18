@@ -1,3 +1,9 @@
+cara run atau buka
+1. buka code editor
+2. buka emulator
+3. pastikan devicenya adalah emulator HP
+4. build and run
+
 # dbook_nationalcoding
 
 A new Flutter project.
